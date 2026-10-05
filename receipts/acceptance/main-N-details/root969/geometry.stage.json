@@ -1,0 +1,74 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/runtime/replay_pilot.py",
+    "--directory",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969",
+    "--receipt",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/N-fresh/root969/geometry.json"
+  ],
+  "exit_code": 0,
+  "seconds": 0.24701687500055414,
+  "status": "PASS",
+  "timeout_seconds": 180,
+  "timed_out": false,
+  "failure": null,
+  "owned_pid": 19516,
+  "owned_child_terminal": true,
+  "stop_error": null,
+  "executable": {
+    "path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+    "bytes": 34640
+  },
+  "compiled_outputs": [],
+  "inputs": [
+    {
+      "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969/representatives.txt",
+      "sha256": "06bf785719cb6e26c0cac7b63981959621c218560c56759b7dd3b38037069815",
+      "bytes": 121637
+    },
+    {
+      "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969/pairs.jsonl",
+      "sha256": "a6ece56339b666c17f45b9622523602a99a60b330de1d9dc494beee42f240e0c",
+      "bytes": 6506
+    },
+    {
+      "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969/models.bin",
+      "sha256": "30df0bf29f0aeda2c74e4dc1e3793938738ce4bcdd7cb0366e69249e3e77df9a",
+      "bytes": 743
+    },
+    {
+      "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969/vectors.jsonl",
+      "sha256": "153d7ab7bedd12f140332960947851dcfb4eb6e83a1ec58ed251f98fa8b3e84c",
+      "bytes": 6324
+    },
+    {
+      "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969/direct.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root969/manifest.json",
+      "sha256": "c7257fd62f8fe458977dd869c6c1d555e093a22e585b3860ab8c6e4af2136687",
+      "bytes": 20328
+    }
+  ],
+  "cumulative_child_maxrss_bytes": 1008009216,
+  "stdout": {
+    "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/N-fresh/root969/geometry.stdout",
+    "sha256": "9d71d45681bd02494d327e166b836ee81720946751a94974fe79b6d2b011eb0f",
+    "bytes": 369
+  },
+  "stderr": {
+    "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/N-fresh/root969/geometry.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "sources": {
+    "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/runtime/source-manifest.json",
+    "sha256": "270bccc70a2f3781f82c13120a743bbd844806e5ec93f19f7b14ceccf87bc8dc",
+    "bytes": 22638
+  },
+  "postcheck_errors": []
+}

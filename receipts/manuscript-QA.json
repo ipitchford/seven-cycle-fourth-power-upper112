@@ -1,0 +1,109 @@
+{
+  "status": "PASS_MANUSCRIPT_TEXT_AND_VISUAL_QA",
+  "assessed_at": "2026-10-05T13:10:20.759139+00:00",
+  "pages": 16,
+  "source_sha256": "f45aa5cd3912da89115d472e63ea30c48dc2d615124327f332170d4c503aede3",
+  "pdf_sha256": "cea6b37f78d6e1b6ab258653f5ce753a94ca6a7e5f053e68d63edf94aa8cc530",
+  "native_compiler": "success",
+  "exported_compiler": "pdfLaTeX; two final passes; no overfull or warning lines",
+  "raw_tex_findings": 0,
+  "visual_review": "All sixteen final pages re-inspected after labelling historical reference runtimes; no clipping, overlap or exposed TeX. Tables, commands, equations and references remain legible.",
+  "markdown_numbering": {
+    "theorems": [
+      {
+        "kind": "Lemma",
+        "number": "2.1",
+        "title": null
+      },
+      {
+        "kind": "Lemma",
+        "number": "2.2",
+        "title": "Mixed contraction"
+      },
+      {
+        "kind": "Proposition",
+        "number": "2.3",
+        "title": "Complete cubic census"
+      },
+      {
+        "kind": "Lemma",
+        "number": "2.4",
+        "title": "Mixed-cycle prerequisite"
+      },
+      {
+        "kind": "Lemma",
+        "number": "3.1",
+        "title": "Finite obligation N"
+      },
+      {
+        "kind": "Lemma",
+        "number": "3.2",
+        "title": "Finite obligation A"
+      },
+      {
+        "kind": "Theorem",
+        "number": "3.3",
+        "title": "Computer-assisted upper bound"
+      },
+      {
+        "kind": "Corollary",
+        "number": "3.4",
+        "title": null
+      },
+      {
+        "kind": "Lemma",
+        "number": "4.1",
+        "title": "Fixed-prefix repair"
+      },
+      {
+        "kind": "Proposition",
+        "number": "6.1",
+        "title": null
+      },
+      {
+        "kind": "Proposition",
+        "number": "6.2",
+        "title": "Computer-assisted minimum-saturation exclusion"
+      },
+      {
+        "kind": "Theorem",
+        "number": "7.1",
+        "title": null
+      },
+      {
+        "kind": "Proposition",
+        "number": "8.1",
+        "title": "Exact relaxation feasibility"
+      }
+    ],
+    "labels": {
+      "lem:normal": "2.1",
+      "lem:contract": "2.2",
+      "prop:census": "2.3",
+      "lem:mixed77": "2.4",
+      "lem:N": "3.1",
+      "lem:A": "3.2",
+      "thm:112": "3.3",
+      "sec:dual": "4",
+      "lem:repair": "4.1",
+      "eq:repair": "1",
+      "eq:cube": "2",
+      "tab:traces": "1",
+      "eq:defect": "3",
+      "prop:excess": "6.1",
+      "prop:barrier": "8.1",
+      "app:finite": "A",
+      "app:replay": "B"
+    },
+    "references": {
+      "baumert": "1",
+      "polak": "2",
+      "itty": "3",
+      "gao": "4",
+      "vesel": "5",
+      "bpz": "6"
+    }
+  },
+  "boundary": "Producer manuscript QA, not external scientific review.",
+  "font_assessment": "All 21 listed font subsets embedded; Latin Modern and AMS Type 1 fonts."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "unrefereed-candidate",
+  "claims": [
+    {
+      "id": "main",
+      "paper": "Theorem 3.3 and Corollary 3.4",
+      "statement": "108 <= alpha(C7^strong4) <= 112; alpha(C7^strong5) <= 392",
+      "evidence": "c7-fourth-power-upper112.zip",
+      "limit": "The exact values remain open."
+    },
+    {
+      "id": "traces",
+      "paper": "Section 5",
+      "statement": "All 1,003,520 maximum-square oriented traces classified by cubic extension maximum",
+      "evidence": "c7-maximum-square-trace-extension-classification.zip",
+      "limit": "Not a census of all cubic 32-codes."
+    },
+    {
+      "id": "saturation",
+      "paper": "Propositions 6.1 and 6.2",
+      "statement": "At size112 with no33-band, excess E >=1; restricted census elimination 11175 ->43 ->0",
+      "evidence": "c7-minimum-saturation112.zip",
+      "limit": "Does not exclude all112 codes."
+    },
+    {
+      "id": "gadgets",
+      "paper": "Theorem 7.1",
+      "statement": "Maximum106 for two square-factor Gao gadgets, including nonmaximum seeds",
+      "evidence": "c7-gao-square-product-maximum106.zip",
+      "limit": "Not an unrestricted graph upper bound."
+    },
+    {
+      "id": "moments",
+      "paper": "Proposition 8.1",
+      "statement": "Specified LP plus two invariant PSD blocks feasible at112 and, by thinning,109..111",
+      "evidence": "c7-invariant-relaxation-barrier.zip",
+      "limit": "Pseudo-moments do not establish physical code existence."
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "evidence/c7-fourth-power-upper112.zip",
+      "bytes": 786289587,
+      "sha256": "a9a54be2206c5e3fdf9059f687b593fb4ccb7506676edc36ce732ec2109ca347"
+    },
+    {
+      "file": "evidence/c7-maximum-square-trace-extension-classification.zip",
+      "bytes": 180659,
+      "sha256": "6cac046336fdbc97ce9717cf82568afcf7400167918369c0f86b771ae826cd0c"
+    },
+    {
+      "file": "evidence/c7-minimum-saturation112.zip",
+      "bytes": 20420811,
+      "sha256": "5d071a8ac6f7adb55a30cf4391b3a1d33341d7cf8c0e8273ccf0133d977423fa"
+    },
+    {
+      "file": "evidence/c7-gao-square-product-maximum106.zip",
+      "bytes": 1030149,
+      "sha256": "69f65079d470991d6281276e4757cf55a844a8b7551a28dc20f87bd6f75d129b"
+    },
+    {
+      "file": "evidence/c7-invariant-relaxation-barrier.zip",
+      "bytes": 51629,
+      "sha256": "4ec5274263878ef74d1fe41ddf13a2565afbf2a8330b287465fbf55a3b19a878"
+    }
+  ],
+  "acceptanceReceiptDirectory": "receipts/acceptance"
+}

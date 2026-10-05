@@ -1,0 +1,76 @@
+{
+  "status": "PASS_FRESH_COMPACT_N_ROOT_COVERAGE_AND_GEOMETRY",
+  "root": 257,
+  "models": 440,
+  "pairs": 49,
+  "coverage": {
+    "root": 257,
+    "mode": "second_class_ge_root",
+    "offsets": [
+      {
+        "kind": "root_distance",
+        "root": 257,
+        "offset": 2,
+        "complete": true,
+        "mode": "second_class_ge_root",
+        "class_skipped_codes": 4231248,
+        "eligible_labeled_codes": 12441296,
+        "posting_visits": 4841764,
+        "scanned_codes": 12441296,
+        "axis0_candidates": 1006713,
+        "axis1_reject": 840554,
+        "axis2_reject": 119346,
+        "scalar_survivors": 46813,
+        "mixed77_excluded": 11,
+        "csp_candidates": 46802,
+        "direct_cube_pending": 0,
+        "empty_pairs": 46753,
+        "sat_pairs": 49,
+        "models": 440,
+        "unknown": 0,
+        "operations": 8040576,
+        "fill_nodes": 1371,
+        "csp_seconds": 1.08844,
+        "seconds": 1.63655
+      },
+      {
+        "kind": "root_distance",
+        "root": 257,
+        "offset": 3,
+        "complete": true,
+        "mode": "second_class_ge_root",
+        "class_skipped_codes": 4231248,
+        "eligible_labeled_codes": 12441296,
+        "posting_visits": 4951090,
+        "scanned_codes": 12441296,
+        "axis0_candidates": 1134238,
+        "axis1_reject": 886388,
+        "axis2_reject": 168367,
+        "scalar_survivors": 79483,
+        "mixed77_excluded": 0,
+        "csp_candidates": 79483,
+        "direct_cube_pending": 0,
+        "empty_pairs": 79483,
+        "sat_pairs": 0,
+        "models": 0,
+        "unknown": 0,
+        "operations": 35363535,
+        "fill_nodes": 0,
+        "csp_seconds": 1.4908,
+        "seconds": 2.11484
+      }
+    ],
+    "seconds": 3.76977
+  },
+  "direct": [],
+  "geometry": {
+    "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/N-fresh/root257/geometry.json",
+    "sha256": "9eb10b5a3e2c73aa0c2e69c397e6d295ae2f6de9bb0690ece475b777c99fe8b8",
+    "bytes": 1601
+  },
+  "compact_manifest": {
+    "path": "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data/root257/manifest.json",
+    "sha256": "017a1103a761f05d39a11cede19f60ca9f602ab85a88ed5a76e8c11d35befcaf",
+    "bytes": 37024
+  }
+}

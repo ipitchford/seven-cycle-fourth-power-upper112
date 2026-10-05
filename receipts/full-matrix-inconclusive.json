@@ -1,0 +1,107 @@
+{
+  "status": "NUMERICAL_OBSERVATION_ONLY",
+  "K": 112,
+  "solver": "SCS 3.2.11",
+  "settings": {
+    "verbose": true,
+    "use_indirect": false,
+    "max_iters": 10000,
+    "eps_abs": 1e-08,
+    "eps_rel": 1e-07,
+    "eps_infeas": 1e-08,
+    "time_limit_secs": 90.0,
+    "normalize": true
+  },
+  "solver_info": {
+    "status_val": 2,
+    "iter": 975,
+    "scale_updates": 5,
+    "scale": 1e-06,
+    "pobj": 0.0,
+    "dobj": -5.664190847180303e-05,
+    "res_pri": 0.005270800582108611,
+    "res_dual": 1.1481940537783376e-08,
+    "gap": 5.664190847180303e-05,
+    "res_infeas": null,
+    "res_unbdd_a": null,
+    "res_unbdd_p": null,
+    "comp_slack": 1.7612439284775405e-12,
+    "solve_time": 90501.196333,
+    "setup_time": 4165.840708,
+    "lin_sys_time": 12440.12801200001,
+    "cone_time": 64014.493286000004,
+    "accel_time": 121.6592119999996,
+    "rejected_accel_steps": 3,
+    "accepted_accel_steps": 4,
+    "status": "solved (inaccurate - reached time_limit_secs)"
+  },
+  "checks": {
+    "equality_maximum_residual": 4.556407447948779e-05,
+    "inequality_maximum_violation": 0.0003800259856364781,
+    "blocks": [
+      {
+        "mode": "selected",
+        "odd": 0,
+        "minimum_eigenvalue": -0.0010147195464066904
+      },
+      {
+        "mode": "selected",
+        "odd": 1,
+        "minimum_eigenvalue": -0.0007162091559036821
+      },
+      {
+        "mode": "selected",
+        "odd": 2,
+        "minimum_eigenvalue": -0.0006274382874136103
+      },
+      {
+        "mode": "selected",
+        "odd": 3,
+        "minimum_eigenvalue": -0.0005687305938530102
+      },
+      {
+        "mode": "selected",
+        "odd": 4,
+        "minimum_eigenvalue": -0.00017228947394831124
+      },
+      {
+        "mode": "absent",
+        "odd": 0,
+        "minimum_eigenvalue": -4.097008578005366e-05
+      },
+      {
+        "mode": "absent",
+        "odd": 1,
+        "minimum_eigenvalue": -0.00014631595815314463
+      },
+      {
+        "mode": "absent",
+        "odd": 2,
+        "minimum_eigenvalue": -0.0001063997892063728
+      },
+      {
+        "mode": "absent",
+        "odd": 3,
+        "minimum_eigenvalue": -3.785565648598092e-05
+      },
+      {
+        "mode": "absent",
+        "odd": 4,
+        "minimum_eigenvalue": -6.492276701467763e-05
+      }
+    ]
+  },
+  "seconds": 94.85539187499671,
+  "maximum_rss_bytes": 390217728,
+  "interpretation": "INCONCLUSIVE: returned point violates constraints; no feasibility or infeasibility certificate",
+  "provenance": {
+    "raw_source": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/global-triple-full-sdp-v1/solve-001/result.json",
+    "raw_sha256": "c777ff75375f0bbce9d378188463b5be9f01f646fcc0ca6cf20df07990999ebb",
+    "nonfinite_fields": "JSON null means unavailable/nonfinite native solver field"
+  },
+  "source_sha256": {
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/global-triple-full-sdp-v1/solve.py": "eaeeab46be0188037ccd4099c274a2e006bbf19e20c26437ff7347c901564046",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/global-triple-full-sdp-v1/blocks.py": "5f9171454c0f74ee33270c40e6443889fbc951bb9162c5c74c0902aed1b5b3c7",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/global-triple-full-sdp-v1/prepare.py": "db78b6f19e02d261b5343257d1165b0590a76a3bf868be07efabd73fef623b0e"
+  }
+}

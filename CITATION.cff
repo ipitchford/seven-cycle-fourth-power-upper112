@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the candidate manuscript and identify the exact archive hash."
+title: "An upper bound of 112 for the fourth strong power of the seven-cycle"
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+date-released: 2026-10-05
+type: article
+abstract: "Computer-assisted bounds 108–112 with portable exact evidence; the exact value remains open."
+license: CC0-1.0
+doi: 10.5281/zenodo.23160075
+repository-code: https://github.com/ipitchford/seven-cycle-fourth-power-upper112
+url: https://doi.org/10.5281/zenodo.23160075

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/runtime/replay_all.py",
+    "--compact-root",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/N/data",
+    "--scope",
+    "all1016",
+    "--out",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/N-fresh"
+  ],
+  "component": "N",
+  "exit_code": 0,
+  "pid": 15079,
+  "seconds": 4066.939816833008,
+  "status": "PASS_ACTUAL_FRESH_COMPONENT_EXIT"
+}

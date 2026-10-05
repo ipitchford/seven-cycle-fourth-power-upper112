@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-05T11:30:10.928060+00:00",
+  "saturation_exit_code": 0,
+  "traces_exit_code": 0,
+  "gadgets_exit_code": 0,
+  "status": "OBSERVED_SUCCESSFUL_TERMINALS",
+  "source": "exec sessions79357,11509,11551 returned terminal exit0; receipt contents checked separately; sessions1254 and11380 returned terminal exit0",
+  "saturation_seconds": 1222.720830792001,
+  "moments_normal_exit_code": 0,
+  "moments_optimized_exit_code": 0,
+  "main_exit_code": 0,
+  "main_observed_at": "2026-10-05T14:10:04.394739+00:00",
+  "main_terminal_source": "exec session 85886 returned exit_code 0, chunk eb03a2"
+}

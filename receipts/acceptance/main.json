@@ -1,0 +1,63 @@
+{
+  "component_archives": {
+    "A": {
+      "archive_sha256": "a195faf8a5dad63a025226b2ab93f9bbe592a83227bf1d9302afc31e0c0a290d",
+      "families": 928,
+      "files": 3086,
+      "fresh_receipt_sha256": "2aa51125b6ab2cca12843e1d264119c0aee015781f0207fad4b2e5200e912269",
+      "manifest_sha256": "e4027b9dfee17e3155cb6091a60aa2cbb841df9abd03babbe788709e48927bef",
+      "models": 12779,
+      "pairs": 7351160,
+      "role": "A",
+      "roots": 1016
+    },
+    "N": {
+      "archive_sha256": "0d29647c0c5dfcb200b32e3c6db7da5ea2f2f9b7a92d58ee19caffe05ff003dc",
+      "direct_cases": 3,
+      "files": 12404,
+      "fresh_prerequisites": true,
+      "fresh_receipt_sha256": "74dd4c8001719a3c0a943ff4ba15bb85256ae57c84b2a65999c1daaa86965fdb",
+      "manifest_sha256": "ee77fd3508651712040688c7cbff84a9523bea335cc27d75782b1847bcb04fc1",
+      "models": 4356002,
+      "pairs": 27718,
+      "role": "N",
+      "roots": 1016
+    }
+  },
+  "exact_optimum_known": false,
+  "excluded_size": 113,
+  "fresh_A_receipt_sha256": "c1c474be8f5b1ba4e2541278b3e7cf247afe60914bd6eea8c7278854cbca635e",
+  "fresh_N_receipt_sha256": "ef7711cdba8b29cfc506126fcaba3a81d0b20a429ea2ce326c2c865866e59953",
+  "graph": "C7^strong4",
+  "lower": 108,
+  "scope": "Fresh no34/census/mixed77/N and A replays plus direct108 witness and exhaustive normalization. No novelty, external peer review or publication claim.",
+  "seconds": 8071.893755415993,
+  "size109_decided": false,
+  "small_mathematics": {
+    "lower_witness": {
+      "pair_checks": 5778,
+      "sha256": "b455a8ef9e01230eb8e8f085e488e379a008fe8b7c703d9a133e9ec6cbd0dd0e",
+      "words": 108
+    },
+    "normalization": {
+      "adjacent_profile": [
+        16,
+        17,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "adjacent_rotations": 7,
+      "nonadjacent_profiles": 455,
+      "profiles": 462,
+      "scan_overlap": [
+        16,
+        30
+      ]
+    }
+  },
+  "status": "PASS_FRESH_MAIN112_BOUND",
+  "upper": 112
+}

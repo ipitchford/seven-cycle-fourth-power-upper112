@@ -1,0 +1,255 @@
+{
+  "half_trace_count": 1536,
+  "maximum33_half_trace_count": 403,
+  "square_orbit_sizes": [
+    392,
+    196,
+    392
+  ],
+  "oriented_counts_by_root": [
+    {
+      "30": 2,
+      "31": 28,
+      "32": 740,
+      "33": 254
+    },
+    {
+      "30": 2,
+      "31": 28,
+      "32": 726,
+      "33": 268
+    },
+    {
+      "30": 2,
+      "31": 32,
+      "32": 706,
+      "33": 284
+    }
+  ],
+  "labelled_oriented_counts": {
+    "30": 1960,
+    "31": 29008,
+    "32": 709128,
+    "33": 263424
+  },
+  "exceptional_exclusions": [
+    {
+      "root": 0,
+      "mask": 292594731013,
+      "cases": [
+        {
+          "a2": [
+            25,
+            47
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 0,
+      "mask": 292628285441,
+      "cases": [
+        {
+          "a2": [
+            2,
+            47
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 0,
+      "mask": 140738058864645,
+      "cases": [
+        {
+          "a2": [
+            34,
+            38
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 0,
+      "mask": 140755238668293,
+      "cases": [
+        {
+          "a2": [
+            16,
+            38
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 1,
+      "mask": 17179869185,
+      "cases": [
+        {
+          "a2": [
+            0,
+            34
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 1,
+      "mask": 292099737605,
+      "cases": [
+        {
+          "a2": [
+            36,
+            47
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 1,
+      "mask": 360785659909,
+      "cases": [
+        {
+          "a2": [
+            25,
+            47
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 1,
+      "mask": 140806249793541,
+      "cases": [
+        {
+          "a2": [
+            34,
+            38
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 2,
+      "mask": 70369030473733,
+      "cases": [
+        {
+          "a2": [
+            33,
+            37
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 2,
+      "mask": 70377620375557,
+      "cases": [
+        {
+          "a2": [
+            15,
+            37
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 2,
+      "mask": 70506469425157,
+      "cases": [
+        {
+          "a2": [
+            11,
+            33
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 2,
+      "mask": 70515041536005,
+      "cases": [
+        {
+          "a2": [
+            20,
+            24
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 2,
+      "mask": 70515042584577,
+      "cases": [
+        {
+          "a2": [
+            2,
+            24
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    },
+    {
+      "root": 2,
+      "mask": 70515059326981,
+      "cases": [
+        {
+          "a2": [
+            11,
+            15
+          ],
+          "left": 203,
+          "right": 203,
+          "comparisons": 41209
+        }
+      ]
+    }
+  ],
+  "status": "FRESH_EXACT_TRACE_CLASSIFICATION_PASS",
+  "manifest_files_checked": 46,
+  "negative_controls_rejected": 6,
+  "manifest_sha256": "3137a500a215ff5f694861423d4a525f0e335ac137b426d4a1cc26d814a39c56",
+  "fresh_census_receipt_sha256": "c9011c5470cd3c8f4fd137bea77bcfe87ba348857023b6a3fef36fc451f94a0d",
+  "dependency": "FRESH_EXACT_CENSUS_REPLAY_PASS",
+  "elapsed_seconds": 124.80462112499663,
+  "scope": "All fixed oriented two-layer traces whose union is a maximum C7 square code. No determination of alpha(C7^4)."
+}

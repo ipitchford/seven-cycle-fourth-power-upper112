@@ -1,0 +1,130 @@
+{
+  "status": "PASS_FRESH_EXACT_UPPER77",
+  "claim": "alpha(C5 strong C7 strong C7 strong C7) <= 77",
+  "verified_manifest_files": 79,
+  "fresh_directory_used": true,
+  "dependencies": "Python3.10+ standard library only; no compiler or SAT solver required",
+  "census": {
+    "base_maximum_codes": 70,
+    "normalized_records": 14,
+    "isometry_classes": 2,
+    "labelled_size23_codes": 7840,
+    "maximum_size": 23
+  },
+  "fresh_catalogue_sha256": "6ef5918fe5cd6eb776b2422367136554cdac1043c9b9d70b3ac80f83b11f4181",
+  "lower_witness": {
+    "size": 70,
+    "original_coordinate_pair_checks": 2415,
+    "translation_period": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "endpoint": {
+    "profiles": 38,
+    "band_pairs": 47040,
+    "scalar_survivors": 950,
+    "allocation_unsat": 926,
+    "allocation_sat": 24,
+    "pair_count_cases": 28,
+    "profile_cases": 57,
+    "allocation_models": 11479,
+    "d3_models_excluded": 11475,
+    "d1_profile_model_instances": 8,
+    "d1_candidate_layers_excluded": 118
+  },
+  "independent_residual_proofs": {
+    "d3_nodes": 4971,
+    "clique_pairs_checked": 79314,
+    "d1_trace_dictionary_size": 7000
+  },
+  "independent_cnf_certificates": {
+    "records": 954,
+    "record_kinds": {
+      "all_models_exhausted": 28,
+      "initial_pair_unsat": 926
+    },
+    "rup_additions": 14564
+  },
+  "steps": [
+    {
+      "script": "endpoint78/independent-audit/final_scope_check.py",
+      "status": "PASS",
+      "seconds": 0.08124749999842606
+    },
+    {
+      "script": "census23/independent-audit/profiles_and_base.py",
+      "status": "PASS",
+      "seconds": 0.039885749996756203
+    },
+    {
+      "script": "census23/independent-audit/census_audit.py",
+      "status": "PASS",
+      "seconds": 1.619278416997986
+    },
+    {
+      "script": "endpoint78/independent-audit/pair_replay.py",
+      "status": "PASS",
+      "seconds": 1.1910052909952356
+    },
+    {
+      "script": "endpoint78/assignment_csp_v2.py",
+      "status": "PASS",
+      "seconds": 0.49884816599660553
+    },
+    {
+      "script": "endpoint78/allocation_models.py",
+      "status": "PASS",
+      "seconds": 0.26977354200789705
+    },
+    {
+      "script": "endpoint78/complete_d3_a2.py",
+      "status": "PASS",
+      "seconds": 0.1669025830051396
+    },
+    {
+      "script": "endpoint78/complete_d1.py",
+      "status": "PASS",
+      "seconds": 0.12185237499943469
+    },
+    {
+      "script": "endpoint78/independent-audit/d3_proof_audit.py",
+      "status": "PASS",
+      "seconds": 9.837765000003856
+    },
+    {
+      "script": "endpoint78/independent-audit/d1_prefix_audit.py",
+      "status": "PASS",
+      "seconds": 0.31981775000167545
+    },
+    {
+      "script": "endpoint78/independent-audit/rup_check.py",
+      "status": "PASS",
+      "seconds": 15.045827416994143
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "out_of_domain_census_word",
+      "status": "REJECTED_AS_REQUIRED",
+      "exit_code": 1
+    },
+    {
+      "name": "missing_labelled_maximum_code",
+      "status": "REJECTED_AS_REQUIRED",
+      "exit_code": 1
+    },
+    {
+      "name": "omitted_allocation_model",
+      "status": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "name": "invalid_fresh_variable_RUP_step",
+      "status": "REJECTED_AS_REQUIRED"
+    }
+  ],
+  "seconds": 30.38925495800504,
+  "scope": "General bounds70<=alpha<=77. No77-word construction, equality, novelty, or unrestricted C7-fourth-power conclusion. The optional periodic component separately proves restricted optimum70."
+}

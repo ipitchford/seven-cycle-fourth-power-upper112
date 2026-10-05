@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "-O",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/A/c7-conditional-adjacent113/component/verify.py",
+    "--package",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/components/A/c7-conditional-adjacent113/component",
+    "--out",
+    "/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main/A-fresh"
+  ],
+  "component": "A",
+  "exit_code": 0,
+  "pid": 19600,
+  "seconds": 3953.931064708013,
+  "status": "PASS_ACTUAL_FRESH_COMPONENT_EXIT"
+}

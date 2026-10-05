@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "title": "An upper bound of 112 for the fourth strong power of the seven-cycle",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "Unrefereed computer-assisted candidate proving 108 <= alpha(C7 strong power 4) <= 112. The exact value remains open. Complete portable certificates and scoped auxiliary results accompany the revised paper. Producer replay is not unaffiliated reproduction, formal verification or external peer review. Original prose and data: CC0-1.0; original code: MIT; inherited notices preserved.",
+    "creators": [
+      {
+        "name": "Anonymous"
+      }
+    ],
+    "version": "0.1.0-candidate",
+    "publication_date": "2026-10-05",
+    "access_right": "open",
+    "license": "cc-zero",
+    "keywords": [
+      "Shannon capacity",
+      "strong graph products",
+      "independence number",
+      "seven-cycle",
+      "exact certificates"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/ipitchford/seven-cycle-fourth-power-upper112",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ]
+  }
+}

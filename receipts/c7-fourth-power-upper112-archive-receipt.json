@@ -1,0 +1,45 @@
+{
+  "archive": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/sealed-main-v2/c7-fourth-power-upper112.zip",
+  "archive_bytes": 786289587,
+  "archive_sha256": "a9a54be2206c5e3fdf9059f687b593fb4ccb7506676edc36ce732ec2109ca347",
+  "component_archives": {
+    "A": {
+      "archive_sha256": "a195faf8a5dad63a025226b2ab93f9bbe592a83227bf1d9302afc31e0c0a290d",
+      "families": 928,
+      "files": 3086,
+      "fresh_receipt_sha256": "2aa51125b6ab2cca12843e1d264119c0aee015781f0207fad4b2e5200e912269",
+      "manifest_sha256": "e4027b9dfee17e3155cb6091a60aa2cbb841df9abd03babbe788709e48927bef",
+      "models": 12779,
+      "pairs": 7351160,
+      "role": "A",
+      "roots": 1016
+    },
+    "N": {
+      "archive_sha256": "0d29647c0c5dfcb200b32e3c6db7da5ea2f2f9b7a92d58ee19caffe05ff003dc",
+      "direct_cases": 3,
+      "files": 12404,
+      "fresh_prerequisites": true,
+      "fresh_receipt_sha256": "74dd4c8001719a3c0a943ff4ba15bb85256ae57c84b2a65999c1daaa86965fdb",
+      "manifest_sha256": "ee77fd3508651712040688c7cbff84a9523bea335cc27d75782b1847bcb04fc1",
+      "models": 4356002,
+      "pairs": 27718,
+      "role": "N",
+      "roots": 1016
+    }
+  },
+  "composition_sha256": "c7a0c47b701624309cc26702234ed9c9d0bc1941eec1223e2162030fad95e2ef",
+  "exact_optimum_known": false,
+  "excluded_size": 113,
+  "files": 17,
+  "fresh_extraction": "PASS_ALL_BYTES",
+  "index_sha256": "dcac4335264ee61bd5ca9c7d2794e2cbc5895476c0f2af26eb4530fd2f703737",
+  "lower": 108,
+  "manifest_sha256": "4fb2522fc81e36744d595e398aaac31d30057dea80cfc513e88cd8ba5640fcca",
+  "mathematical_replay_repeated_for_wrapping": false,
+  "ready_spec_sha256": "f401b0b5e8b44232f6882ed46614ad0120fe352f52cab5e7cd3bcb7a3676930d",
+  "seconds": 8.635042582995084,
+  "size109_decided": false,
+  "source_sha256": "da997eacaf7a9c2aaa1ad99348224e8e0239d3f70a0bd463412a7a8a4acb95be",
+  "status": "PASS_MAIN112_EXACT_ARCHIVE_OF_COMPLETED_FRESH_REPLAY_COMPOSITION",
+  "upper": 112
+}

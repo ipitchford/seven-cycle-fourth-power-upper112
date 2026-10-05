@@ -1,0 +1,217 @@
+{
+  "status": "RETROSPECTIVE_RESEARCH_AND_REVIEW_REVISION_RECORD",
+  "boundary": "Bounded source comparison, not novelty proof; public publication and readback are recorded separately.",
+  "contributionMap": [
+    {
+      "claim": "Upper bound112 and consequence392",
+      "unit": "statement",
+      "paperLocation": "Theorem3.3 and Corollary3.4",
+      "searches": [
+        {
+          "date": "2026-10-05",
+          "query": "\"seven-cycle\" \"fourth\" \"112\" independence",
+          "outcome": "No directly matching result identified; noisy search results were not used as evidence of uniqueness."
+        }
+      ],
+      "closestPriorWork": "Polak/Schrijver Table1 records108..115; Baumert gives the recursive inequality.",
+      "verdict": "partially-known-cited",
+      "qualification": "Known problem/method cited; the supplied specific result is established by this package, but historical priority remains unestablished."
+    },
+    {
+      "claim": "Maximum-square trace classification",
+      "unit": "object",
+      "paperLocation": "Section5",
+      "searches": [
+        {
+          "date": "2026-10-05",
+          "query": "\"C7\" \"maximum\" \"boundary traces\" independent",
+          "outcome": "No directly matching result identified; noisy search results were not used as evidence of uniqueness."
+        }
+      ],
+      "closestPriorWork": "Baumert enumerates maximum squares and cubic layer methods; the specified full boundary extension table is the present computational object.",
+      "verdict": "partially-known-cited",
+      "qualification": "Known problem/method cited; the supplied specific result is established by this package, but historical priority remains unestablished."
+    },
+    {
+      "claim": "Conditional minimum-saturation exclusion",
+      "unit": "statement",
+      "paperLocation": "Section6",
+      "searches": [
+        {
+          "date": "2026-10-05",
+          "query": "\"C7\" \"maximum\" \"boundary traces\" independent",
+          "outcome": "No directly matching result identified; noisy search results were not used as evidence of uniqueness."
+        }
+      ],
+      "closestPriorWork": "Classical adjacent-window packing is known; the restricted census elimination is the scoped result here.",
+      "verdict": "partially-known-cited",
+      "qualification": "Known problem/method cited; the supplied specific result is established by this package, but historical priority remains unestablished."
+    },
+    {
+      "claim": "Exact square-gadget maximum106",
+      "unit": "statement",
+      "paperLocation": "Theorem7.1",
+      "searches": [
+        {
+          "date": "2026-10-05",
+          "query": "\"Gao\" \"square\" \"106\" \"Shannon\"",
+          "outcome": "No directly matching result identified; noisy search results were not used as evidence of uniqueness."
+        }
+      ],
+      "closestPriorWork": "Gao Definition3 and Lemma4 supply the product construction; exhaustive optimization within two square factors is the present restriction.",
+      "verdict": "partially-known-cited",
+      "qualification": "Known problem/method cited; the supplied specific result is established by this package, but historical priority remains unestablished."
+    },
+    {
+      "claim": "Exact invariant moment feasibility barrier",
+      "unit": "statement",
+      "paperLocation": "Proposition8.1",
+      "searches": [
+        {
+          "date": "2026-10-05",
+          "query": "\"seven-cycle\" \"moment\" \"semidefinite\"",
+          "outcome": "No directly matching result identified; noisy search results were not used as evidence of uniqueness."
+        }
+      ],
+      "closestPriorWork": "Moment positivity and conditional packing are general methods; this certificate concerns the explicitly specified finite relaxation.",
+      "verdict": "partially-known-cited",
+      "qualification": "Known problem/method cited; the supplied specific result is established by this package, but historical priority remains unestablished."
+    },
+    {
+      "claim": "Band normalization and exact certificate replay",
+      "unit": "method",
+      "paperLocation": "Sections2--4",
+      "searches": [
+        {
+          "date": "2026-10-05",
+          "query": "\"seven-cycle\" \"fourth\" \"112\" independence",
+          "outcome": "No directly matching result identified; noisy search results were not used as evidence of uniqueness."
+        }
+      ],
+      "closestPriorWork": "Layer decomposition, symmetry and packing inequalities are classical. This work combines them with complete allocations and integer completion certificates; no invention of those generic methods is claimed.",
+      "verdict": "partially-known-cited",
+      "qualification": "Known problem/method cited; the supplied specific result is established by this package, but historical priority remains unestablished."
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "Baumert et al.1971",
+      "date": "2026-10-04",
+      "usedFor": "Cubic33, square catalogue, recursive bound",
+      "readWhat": "Retained scan, pp.106–107 and relevant square-packing discussion during research",
+      "evidenceLocator": "CITATION_AUDIT.md entry1 and retained research source audit"
+    },
+    {
+      "citation": "Polak and Schrijver2019",
+      "date": "2026-10-05",
+      "usedFor": "Historical108..115 comparison",
+      "readWhat": "Introduction, Table1 and recursive-bound attribution in arXiv1808.07438v2; journal metadata",
+      "evidenceLocator": "CITATION_AUDIT.md entry2"
+    },
+    {
+      "citation": "Itty et al.2026 arXiv2607.21517v2",
+      "date": "2026-10-05",
+      "usedFor": "Open fourth-power question and lower108",
+      "readWhat": "Section2 and relevant construction discussion, retained full HTML/PDF",
+      "evidenceLocator": "CITATION_AUDIT.md entry3"
+    },
+    {
+      "citation": "Gao2026 arXiv2607.27869v1",
+      "date": "2026-10-05",
+      "usedFor": "Definition of method-specific product class",
+      "readWhat": "Definition3 and Lemma4, prior research analysis rechecked against versioned HTML",
+      "evidenceLocator": "CITATION_AUDIT.md entry4"
+    },
+    {
+      "citation": "Buys, Polak and Zuiddam 2026 arXiv2607.29681v1",
+      "date": "2026-10-05",
+      "usedFor": "Private-pair/valid-tuple equivalence and square-factor scope",
+      "readWhat": "Full Section 2; Lean project not rebuilt",
+      "evidenceLocator": "CITATION_AUDIT.md entry 6"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Exact alpha and109 feasibility unresolved",
+      "closingQuestion": "Can a construction or complete exclusion settle109?",
+      "triedOrSearched": "Multiple construction and certificate routes tested; stronger fullPSD numerical test inconclusive.",
+      "estimatedCost": "Unknown; no demonstrated cheap completion",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Not settled by the recorded work; explicitly outside the proved claim."
+    },
+    {
+      "limitation": "Minimum-saturation theorem conditional",
+      "closingQuestion": "Can positive excess or33-band cases also be excluded?",
+      "triedOrSearched": "Complete E0 exclusion only; positive-excess exploration did not close remaining cases.",
+      "estimatedCost": "Unknown; no demonstrated cheap completion",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Not settled by the recorded work; explicitly outside the proved claim."
+    },
+    {
+      "limitation": "Gadget theorem covers square factors",
+      "closingQuestion": "Does another factor split or construction improve108?",
+      "triedOrSearched": "Other factor branches investigated without109 or a general exclusion.",
+      "estimatedCost": "Unknown; no demonstrated cheap completion",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Not settled by the recorded work; explicitly outside the proved claim."
+    },
+    {
+      "limitation": "Invariant moment blocks weaker than fullPSD",
+      "closingQuestion": "Can stronger matrices produce a graph upper bound?",
+      "triedOrSearched": "Full matrix diagnostic and one bounded fullSDP solve performed; latter inconclusive.",
+      "estimatedCost": "Unknown; no demonstrated cheap completion",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Not settled by the recorded work; explicitly outside the proved claim."
+    },
+    {
+      "limitation": "Priority and external acceptance unestablished",
+      "closingQuestion": "Can source comparison and external review establish novelty and acceptance?",
+      "triedOrSearched": "Bounded primary-source audit completed; no external review requested or claimed.",
+      "estimatedCost": "Unknown; no demonstrated cheap completion",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Not settled by the recorded work; explicitly outside the proved claim."
+    },
+    {
+      "limitation": "Fifth-power corollary",
+      "closingQuestion": "Does the layer recursion propagate112?",
+      "triedOrSearched": "Summing seven112-bands gives2|S|<=784.",
+      "estimatedCost": "Elementary argument",
+      "decision": "CLOSED",
+      "cheap": true
+    }
+  ],
+  "extensionScout": {
+    "by": "Codex during the original investigation and current preparation",
+    "date": "2026-10-05",
+    "proposals": [
+      "Fifth-power consequence",
+      "Complete boundary traces",
+      "Minimum-saturation exclusion",
+      "Gao square-factor optimum",
+      "Exact moment limitation; stronger fullPSD diagnostic"
+    ],
+    "actions": [
+      "Completed and packaged the first five scoped mathematical results",
+      "FullPSD pilot inconclusive; no graph conclusion inferred",
+      "No new research launched during paper preparation"
+    ]
+  },
+  "reviewRevision": {
+    "date": "2026-10-05",
+    "basis": "Supplied AI-assisted eleven-page review; not authenticated external review",
+    "response": "REVIEW_RESPONSE.md",
+    "semanticExpansion": "Paper Appendix A and guides/specifications/SOURCE_MAP.json",
+    "acceptance": "Fresh complete main and auxiliary receipts under receipts/acceptance; no historical timestamp inferred."
+  },
+  "sourceAccessLimits": [
+    {
+      "citation": "Vesel and Zerovnik 2002",
+      "scope": "Publisher abstract checked for original 108 attribution; full text unavailable; literal supplied witness independently checked."
+    }
+  ]
+}

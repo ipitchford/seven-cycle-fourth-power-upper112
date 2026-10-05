@@ -1,0 +1,25 @@
+{
+  "lower_witness": {
+    "pair_checks": 5778,
+    "sha256": "b455a8ef9e01230eb8e8f085e488e379a008fe8b7c703d9a133e9ec6cbd0dd0e",
+    "words": 108
+  },
+  "normalization": {
+    "adjacent_profile": [
+      16,
+      17,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "adjacent_rotations": 7,
+    "nonadjacent_profiles": 455,
+    "profiles": 462,
+    "scan_overlap": [
+      16,
+      30
+    ]
+  }
+}

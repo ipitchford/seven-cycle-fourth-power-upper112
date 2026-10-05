@@ -1,0 +1,60 @@
+{
+  "status": "PASS_VERIFIED_GAO_METHOD106_DELIVERY",
+  "scope": "Exact maximum 106 for Gao Definition 3/Lemma 4 gadgets with both factors C7 strong-product C7, including different and nonmaximum seeds. Not an unrestricted fourth-power bound.",
+  "method_maximum": 106,
+  "unrestricted_problem_solved": false,
+  "publication_performed": false,
+  "archive_members": 20,
+  "packet_manifest_sha256": "df30bd1ea383c47432fcdc2fcd3f295f76a58adc29278940add19c7d8a808a4c",
+  "actual_fresh_replay_terminal_exit_code": 0,
+  "actual_fresh_replay_wall_seconds": 14.626316959001997,
+  "outputs": {
+    "c7-gao-square-product-maximum106.zip": {
+      "sha256": "69f65079d470991d6281276e4757cf55a844a8b7551a28dc20f87bd6f75d129b",
+      "bytes": 1030149,
+      "source": "work/gao-square-method106-archive-v1/gao-square-method106.zip",
+      "byte_identical_to_source": true
+    },
+    "c7-gao-square-product-maximum106-replay-receipt.json": {
+      "sha256": "1b0404511cc372e6be61bf00774674894e632fbf39851b5ec70e07497f555b33",
+      "bytes": 4695,
+      "source": "work/gao-square-method106-clean-replay-v1/owner-terminal.json",
+      "byte_identical_to_source": true
+    },
+    "c7-gao-square-product-maximum106-fresh-result.json": {
+      "sha256": "6b3e99202bc94164bcb79f8fe3fa328e33cccf7bbee3656fc3aed18d94c7c2c2",
+      "bytes": 2757,
+      "source": "work/gao-square-method106-clean-replay-v1/scratch/result.json",
+      "byte_identical_to_source": true
+    },
+    "c7-gao-square-product-maximum106-root-readback.json": {
+      "sha256": "668a0a5aa3044df57f832b42e405eeeb04e3160f6344d1ee5c067c1f43777150",
+      "bytes": 707,
+      "source": "work/gao-square-method106-clean-replay-v1/root-independent-readback.json",
+      "byte_identical_to_source": true
+    },
+    "c7-gao-square-product-maximum106-independent-readback.json": {
+      "sha256": "c578cc135c0e17bd5bb911c044bc8a5c79dc9aa12a27258bdd680c8e87291e05",
+      "bytes": 1347,
+      "source": "work/upper_bounds/gao-method106-independent-review/fresh-readback-v1.json",
+      "byte_identical_to_source": true
+    },
+    "c7-gao-square-product-maximum106-PROOF.md": {
+      "sha256": "878651b60e5b7470f5aa7006351c90aeb2a9730ed9158c17ae1f3dbcaa30a12d",
+      "bytes": 4108,
+      "source": "work/gao-square-method106-package-v3/PROOF.md",
+      "byte_identical_to_source": true
+    },
+    "c7-gao-square-product-maximum106-README.md": {
+      "sha256": "e18d709e75aec006b5341be23920416c3a903381afa767ec932a6d7db53b0304",
+      "bytes": 2542,
+      "source": "work/gao-square-method106-delivery-v1/README.md",
+      "byte_identical_to_source": true
+    }
+  },
+  "independent_source_gates": {
+    "work/upper_bounds/gao-method106-independent-review/final-source-gate-v3.json": "30381843a80334b14c2b24a03139267512b3d1848c5635232f9f3eb79cfc4fd2",
+    "work/upper_bounds/direct-cube-closure-review/gao106-portable-graph-adapter-static-v1.json": "a6eaee3222618a81693762b2a00a4973fb3bee245e86efa41ac40b6cca496474"
+  },
+  "receipt_scope": "Fresh mathematical replay and independent readbacks completed before authorized exact copying. Source paths are provenance only; portable replay uses only archive contents. The outputs mapping binds every delivered file other than this receipt itself."
+}

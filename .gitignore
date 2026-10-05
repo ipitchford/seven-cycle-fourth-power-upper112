@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Complete certificate ZIPs are distributed in the versioned release bundle.
+evidence/*.zip

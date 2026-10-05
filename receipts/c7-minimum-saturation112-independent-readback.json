@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_CURRENT_BYTES_COMPLETE_RECEIPT_AND_SCOPE_READBACK",
+  "geometric_replay_performed_here": false,
+  "proof_tree_replay_performed_here": false,
+  "completed_replay_owner": "root, exec93414, terminal exit0 reported directly by owner",
+  "archive_sha256": "5d071a8ac6f7adb55a30cf4391b3a1d33341d7cf8c0e8273ccf0133d977423fa",
+  "archive_bytes": 20420811,
+  "manifest_sha256": "6b8cd532ba48119f3a066eaab1b748943117be0f9fdeca9aaa25a924f102f604",
+  "current_payload_files": 11219,
+  "current_payload_bytes": 58453694,
+  "completed_replay_receipt_sha256": "565ffb23cb314e51d76f05ce4a3133bd9c1a0773c8a210241aa83c3905916da2",
+  "dependency_receipt_sha256": "9275a32e2e1c634836056ad29a36da704459d8b6482faf0eec3758f7f3c089ad",
+  "stages": [
+    {
+      "providers": 11175,
+      "UNSAT": 11132,
+      "SAT": 43,
+      "UNKNOWN": 0
+    },
+    {
+      "providers": 43,
+      "UNSAT": 43,
+      "SAT": 0,
+      "UNKNOWN": 0
+    }
+  ],
+  "proof_bytes": 40133217,
+  "branches": 10002573,
+  "leaves": 10013748,
+  "source_sha256": "bdd69b638a98011b88887edc114c90b357c9f90e15cbd0df3672280afab3de83",
+  "scope": "Conditional necessary-allocation reduction for independent balanced112 with no size33 band and minimum saturation in all six coordinate pairs. No arbitrary112 exclusion or optimum109 claim.",
+  "interpretation": "Fresh root-owned replay is complete and currently bound to the sealed archive. This independent check reread bytes, manifests, exact stage inventories and completed-result bindings; it did not duplicate the census, domain reconstruction or tree traversal."
+}

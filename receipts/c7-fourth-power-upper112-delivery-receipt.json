@@ -1,0 +1,127 @@
+{
+  "archive_bytes": 786289587,
+  "archive_members": 17,
+  "archive_sha256": "a9a54be2206c5e3fdf9059f687b593fb4ccb7506676edc36ce732ec2109ca347",
+  "assembler_owner": {
+    "bytes": 929,
+    "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/sealed-main-v2/owner-terminal-readback.json",
+    "sha256": "a1af932c09c5259a8ea4a74b51dc896ee7efba82f38015e73e5a1c43be33c9bd"
+  },
+  "component_archives": {
+    "A": {
+      "archive_sha256": "a195faf8a5dad63a025226b2ab93f9bbe592a83227bf1d9302afc31e0c0a290d",
+      "families": 928,
+      "files": 3086,
+      "fresh_receipt_sha256": "2aa51125b6ab2cca12843e1d264119c0aee015781f0207fad4b2e5200e912269",
+      "manifest_sha256": "e4027b9dfee17e3155cb6091a60aa2cbb841df9abd03babbe788709e48927bef",
+      "models": 12779,
+      "pairs": 7351160,
+      "role": "A",
+      "roots": 1016
+    },
+    "N": {
+      "archive_sha256": "0d29647c0c5dfcb200b32e3c6db7da5ea2f2f9b7a92d58ee19caffe05ff003dc",
+      "direct_cases": 3,
+      "files": 12404,
+      "fresh_prerequisites": true,
+      "fresh_receipt_sha256": "74dd4c8001719a3c0a943ff4ba15bb85256ae57c84b2a65999c1daaa86965fdb",
+      "manifest_sha256": "ee77fd3508651712040688c7cbff84a9523bea335cc27d75782b1847bcb04fc1",
+      "models": 4356002,
+      "pairs": 27718,
+      "role": "N",
+      "roots": 1016
+    }
+  },
+  "composition_sha256": "c7a0c47b701624309cc26702234ed9c9d0bc1941eec1223e2162030fad95e2ef",
+  "delivery_source": {
+    "bytes": 5677,
+    "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/deliver_outputs_v1.py",
+    "sha256": "e1d5f84ceb329aa9bd42acd38c31320dfca1c67792cbbca9700d2eb0df956f1c"
+  },
+  "exact_optimum_known": false,
+  "excluded_size": 113,
+  "files": {
+    "c7-fourth-power-upper112-README.md": {
+      "bytes": 4210,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/outputs/c7-fourth-power-upper112-README.md",
+      "sha256": "ae4aa09ea19ca9e7c1102280a8fa30eb3bec9765b4bd14dc376bd66fba89bb78"
+    },
+    "c7-fourth-power-upper112-archive-receipt.json": {
+      "bytes": 1994,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/outputs/c7-fourth-power-upper112-archive-receipt.json",
+      "sha256": "7a6e5d2d22269a96646bf26a0073ab64d6a2c9785b5466d5f9d86010d0938e34"
+    },
+    "c7-fourth-power-upper112-composition.json": {
+      "bytes": 3164,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/outputs/c7-fourth-power-upper112-composition.json",
+      "sha256": "c7a0c47b701624309cc26702234ed9c9d0bc1941eec1223e2162030fad95e2ef"
+    },
+    "c7-fourth-power-upper112-independent-readback.json": {
+      "bytes": 1953,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/outputs/c7-fourth-power-upper112-independent-readback.json",
+      "sha256": "469448b468382c1d851e8365ec8b938c7bb885b6d21ff29e6e7da02393a8f839"
+    },
+    "c7-fourth-power-upper112-proof.md": {
+      "bytes": 6890,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/outputs/c7-fourth-power-upper112-proof.md",
+      "sha256": "87f2448579526c2028cced8193dd521298438634936bbcda3af910ff4314b488"
+    },
+    "c7-fourth-power-upper112.zip": {
+      "bytes": 786289587,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/outputs/c7-fourth-power-upper112.zip",
+      "sha256": "a9a54be2206c5e3fdf9059f687b593fb4ccb7506676edc36ce732ec2109ca347"
+    }
+  },
+  "graph": "C7^strong4",
+  "independent_readback_owner_observation": {
+    "source": "Parent observed the actual successful tool terminal and authorized final outputs delivery.",
+    "terminal_exit_code": 0,
+    "tool_session_id": 45640
+  },
+  "independent_root_readback": {
+    "bytes": 1953,
+    "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/main112-root-readback/receipt.json",
+    "sha256": "469448b468382c1d851e8365ec8b938c7bb885b6d21ff29e6e7da02393a8f839"
+  },
+  "lower": 108,
+  "manifest_sha256": "4fb2522fc81e36744d595e398aaac31d30057dea80cfc513e88cd8ba5640fcca",
+  "mathematical_replay_repeated_for_delivery": false,
+  "policy": "All delivered copies were reopened and SHA256/byte-count matched to the frozen source. Earlier archives and receipts were preserved. Full fresh A/N proof replays are bound by their exact archives; packaging and delivery do not repeat them.",
+  "scope": "Computer-assisted bound108 <= alpha(C7 strong4) <=112. Exact optimum and109 feasibility remain unresolved; no novelty, publication or external peer-review claim.",
+  "size109_decided": false,
+  "source_files": {
+    "c7-fourth-power-upper112-README.md": {
+      "bytes": 4210,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/outputs-README-v1.md",
+      "sha256": "ae4aa09ea19ca9e7c1102280a8fa30eb3bec9765b4bd14dc376bd66fba89bb78"
+    },
+    "c7-fourth-power-upper112-archive-receipt.json": {
+      "bytes": 1994,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/sealed-main-v2/delivery-receipt.json",
+      "sha256": "7a6e5d2d22269a96646bf26a0073ab64d6a2c9785b5466d5f9d86010d0938e34"
+    },
+    "c7-fourth-power-upper112-composition.json": {
+      "bytes": 3164,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/sealed-main-v2/fresh-extraction/c7-fourth-power-upper112/evidence/composition.json",
+      "sha256": "c7a0c47b701624309cc26702234ed9c9d0bc1941eec1223e2162030fad95e2ef"
+    },
+    "c7-fourth-power-upper112-independent-readback.json": {
+      "bytes": 1953,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/main112-root-readback/receipt.json",
+      "sha256": "469448b468382c1d851e8365ec8b938c7bb885b6d21ff29e6e7da02393a8f839"
+    },
+    "c7-fourth-power-upper112-proof.md": {
+      "bytes": 6890,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/sealed-main-v2/fresh-extraction/c7-fourth-power-upper112/MATHEMATICS.md",
+      "sha256": "87f2448579526c2028cced8193dd521298438634936bbcda3af910ff4314b488"
+    },
+    "c7-fourth-power-upper112.zip": {
+      "bytes": 786289587,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/sealed-main-v2/c7-fourth-power-upper112.zip",
+      "sha256": "a9a54be2206c5e3fdf9059f687b593fb4ccb7506676edc36ce732ec2109ca347"
+    }
+  },
+  "status": "PASS_MAIN112_OUTPUTS_DELIVERY_AND_COPY_READBACK",
+  "total_delivered_bytes_without_this_receipt": 786307798,
+  "upper": 112
+}

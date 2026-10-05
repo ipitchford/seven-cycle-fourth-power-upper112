@@ -1,0 +1,25 @@
+{
+  "A": {
+    "archive_sha256": "a195faf8a5dad63a025226b2ab93f9bbe592a83227bf1d9302afc31e0c0a290d",
+    "families": 928,
+    "files": 3086,
+    "fresh_receipt_sha256": "2aa51125b6ab2cca12843e1d264119c0aee015781f0207fad4b2e5200e912269",
+    "manifest_sha256": "e4027b9dfee17e3155cb6091a60aa2cbb841df9abd03babbe788709e48927bef",
+    "models": 12779,
+    "pairs": 7351160,
+    "role": "A",
+    "roots": 1016
+  },
+  "N": {
+    "archive_sha256": "0d29647c0c5dfcb200b32e3c6db7da5ea2f2f9b7a92d58ee19caffe05ff003dc",
+    "direct_cases": 3,
+    "files": 12404,
+    "fresh_prerequisites": true,
+    "fresh_receipt_sha256": "74dd4c8001719a3c0a943ff4ba15bb85256ae57c84b2a65999c1daaa86965fdb",
+    "manifest_sha256": "ee77fd3508651712040688c7cbff84a9523bea335cc27d75782b1847bcb04fc1",
+    "models": 4356002,
+    "pairs": 27718,
+    "role": "N",
+    "roots": 1016
+  }
+}

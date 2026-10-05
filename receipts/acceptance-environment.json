@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-05T11:09:35.297240+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "main_command": "python3 -B acceptance-inputs/c7-fourth-power-upper112/verify.py --out '/Volumes/VR3 Compute/c7-review-acceptance-20261005-1155/main'",
+  "saturation_command": "python3 -B -O acceptance-inputs/c7-minimum-saturation112/verify.py --work-dir saturation-acceptance-replay --census-seconds 1200 --verification-seconds 1800",
+  "execution_scope": "Fresh clean extraction, same producer workstation; not unaffiliated reproduction.",
+  "main_archive_sha256": "a9a54be2206c5e3fdf9059f687b593fb4ccb7506676edc36ce732ec2109ca347",
+  "saturation_archive_sha256": "5d071a8ac6f7adb55a30cf4391b3a1d33341d7cf8c0e8273ccf0133d977423fa",
+  "scratch_volume": "External VR3 Compute APFS volume; clean retry retains the unchanged 20 GiB resource guard",
+  "prior_attempt": "receipts/acceptance/incomplete-local-N-stage.json"
+}

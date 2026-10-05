@@ -1,0 +1,7 @@
+Outer preparation host: macOS-27.0.1-arm64-arm-64bit-Mach-O
+Python: 3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]
+Paper: standalone LaTeX; desktop compiler success, exported with installed pdfLaTeX.
+Main replay: Python3.10+, C++17, macOS CommonCrypto or Linux OpenSSL.
+Moment replay: Python standard library on macOS/Linux.
+No network or SAT/optimization solver required for certificate replay.
+Fresh revision acceptance: receipts/acceptance-environment.json binds environment and archive identities. Detailed run receipts are in receipts/acceptance/.

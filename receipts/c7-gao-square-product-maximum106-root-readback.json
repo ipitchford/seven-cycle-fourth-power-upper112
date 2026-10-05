@@ -1,0 +1,11 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_ARCHIVE_AND_FRESH_RECEIPT_READBACK",
+  "archive_sha256": "69f65079d470991d6281276e4757cf55a844a8b7551a28dc20f87bd6f75d129b",
+  "members": 20,
+  "manifest_sha256": "df30bd1ea383c47432fcdc2fcd3f295f76a58adc29278940add19c7d8a808a4c",
+  "fresh_result_sha256": "6b3e99202bc94164bcb79f8fe3fa328e33cccf7bbee3656fc3aed18d94c7c2c2",
+  "owner_sha256": "1b0404511cc372e6be61bf00774674894e632fbf39851b5ec70e07497f555b33",
+  "outputs_verified": 5,
+  "method_maximum": 106,
+  "scope": "Metadata and exact byte readback of already completed fresh replay, not another independent mathematical enumeration. The theorem is the ordinary square-by-square Gao gadget method maximum only."
+}

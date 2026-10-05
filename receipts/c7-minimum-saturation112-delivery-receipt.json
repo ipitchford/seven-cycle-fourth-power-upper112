@@ -1,0 +1,45 @@
+{
+  "status": "DELIVERED_EXACT_ARCHIVE_AFTER_FRESH_COMPLETE_REPLAY",
+  "scope": "Conditional necessary-allocation reduction for independent balanced112 with no size33 band and minimum saturation in all six coordinate pairs. No arbitrary112 exclusion or optimum109 claim.",
+  "actual_root_exec_session": 93414,
+  "actual_owner_exit_code": 0,
+  "fresh_replay_seconds": 1164.7822059169994,
+  "maximum_resident_set_bytes": 140591104,
+  "archive_manifest_sha256": "6b8cd532ba48119f3a066eaab1b748943117be0f9fdeca9aaa25a924f102f604",
+  "files": [
+    {
+      "file": "c7-minimum-saturation112.zip",
+      "sha256": "5d071a8ac6f7adb55a30cf4391b3a1d33341d7cf8c0e8273ccf0133d977423fa",
+      "bytes": 20420811
+    },
+    {
+      "file": "c7-minimum-saturation112-replay-receipt.json",
+      "sha256": "565ffb23cb314e51d76f05ce4a3133bd9c1a0773c8a210241aa83c3905916da2",
+      "bytes": 317149
+    },
+    {
+      "file": "c7-minimum-saturation112-census-replay-receipt.json",
+      "sha256": "9275a32e2e1c634836056ad29a36da704459d8b6482faf0eec3758f7f3c089ad",
+      "bytes": 2929
+    },
+    {
+      "file": "c7-minimum-saturation112-proof.md",
+      "sha256": "3c4eacef0ac318719e8d7d74270c6ca3d8688a2cd6e3fe66ec8a8c2373e1e117",
+      "bytes": 3823
+    },
+    {
+      "file": "c7-minimum-saturation112-independent-readback.json",
+      "sha256": "d1e7c9d05822374fec5bd2159fcf64443409a71ef952e88004279f146e479105",
+      "bytes": 1593
+    },
+    {
+      "file": "c7-minimum-saturation112-README.md",
+      "sha256": "aa916c57576173dd5ed1a2ab2a4fa4044aaa642df3df59ce43151a26bc7c22d2",
+      "bytes": 2082
+    }
+  ],
+  "archive_extraction_checked_before_replay": true,
+  "archive_and_every_payload_checked_again_after_replay": true,
+  "independent_readback_sha256": "d1e7c9d05822374fec5bd2159fcf64443409a71ef952e88004279f146e479105",
+  "no_source_or_archive_changes_after_replay": true
+}

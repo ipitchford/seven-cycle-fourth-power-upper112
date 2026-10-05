@@ -1,0 +1,85 @@
+{
+  "assembly_source_sha256": "da997eacaf7a9c2aaa1ad99348224e8e0239d3f70a0bd463412a7a8a4acb95be",
+  "components": {
+    "A": {
+      "archive_sha256": "a195faf8a5dad63a025226b2ab93f9bbe592a83227bf1d9302afc31e0c0a290d",
+      "families": 928,
+      "files": 3086,
+      "fresh_receipt_sha256": "2aa51125b6ab2cca12843e1d264119c0aee015781f0207fad4b2e5200e912269",
+      "manifest_sha256": "e4027b9dfee17e3155cb6091a60aa2cbb841df9abd03babbe788709e48927bef",
+      "models": 12779,
+      "pairs": 7351160,
+      "role": "A",
+      "roots": 1016
+    },
+    "N": {
+      "archive_sha256": "0d29647c0c5dfcb200b32e3c6db7da5ea2f2f9b7a92d58ee19caffe05ff003dc",
+      "direct_cases": 3,
+      "files": 12404,
+      "fresh_prerequisites": true,
+      "fresh_receipt_sha256": "74dd4c8001719a3c0a943ff4ba15bb85256ae57c84b2a65999c1daaa86965fdb",
+      "manifest_sha256": "ee77fd3508651712040688c7cbff84a9523bea335cc27d75782b1847bcb04fc1",
+      "models": 4356002,
+      "pairs": 27718,
+      "role": "N",
+      "roots": 1016
+    }
+  },
+  "controls_ref": {
+    "bytes": 2115,
+    "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase16-main112-assembly/controls-receipt-v5.json",
+    "sha256": "2d787047c88932e8c60ca1ddc131443eb38bf87a207fe944be01136db31b0937"
+  },
+  "delivery_refs": {
+    "A": {
+      "bytes": 2104,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/construction_search/phase15-adjacent-portable/sealed-v1/delivery-receipt.json",
+      "sha256": "7429d071ae5437d158de6e24c9eae32cac261eed413a51fe0434b54ff710bfcf"
+    },
+    "N": {
+      "bytes": 2290,
+      "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/upper_bounds/compact-n-delivery-seal-run-001/delivery-receipt.json",
+      "sha256": "8af398328c6cbb5d2d87216998d71e59253a2d47fa880ec16d4c9cf26b7ec3c7"
+    }
+  },
+  "exact_optimum_known": false,
+  "excluded_size": 113,
+  "fresh_mathematics_reexecuted_for_wrapping": false,
+  "graph": "C7^strong4",
+  "lower": 108,
+  "ready_spec_sha256": "f401b0b5e8b44232f6882ed46614ad0120fe352f52cab5e7cd3bcb7a3676930d",
+  "review_ref": {
+    "bytes": 3447,
+    "path": "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/upper_bounds/direct-cube-closure-review/main112-top-level-source-review-v1.json",
+    "sha256": "70a3d875958962f4baf97b07ae94528ce7d55eb690e6aaa7d6cf2ec60f6d4e76"
+  },
+  "scope": "Exact-byte composition of two completed fresh mathematical replays and actual owner exits, with direct108 and normalization checked here. No novelty, external peer-review or publication claim.",
+  "size109_decided": false,
+  "small_mathematics": {
+    "lower_witness": {
+      "pair_checks": 5778,
+      "sha256": "b455a8ef9e01230eb8e8f085e488e379a008fe8b7c703d9a133e9ec6cbd0dd0e",
+      "words": 108
+    },
+    "normalization": {
+      "adjacent_profile": [
+        16,
+        17,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "adjacent_rotations": 7,
+      "nonadjacent_profiles": 455,
+      "profiles": 462,
+      "scan_overlap": [
+        16,
+        30
+      ]
+    }
+  },
+  "status": "PASS_MAIN112_COMPOSITION_OF_COMPLETED_FRESH_REPLAYS",
+  "upper": 112
+}

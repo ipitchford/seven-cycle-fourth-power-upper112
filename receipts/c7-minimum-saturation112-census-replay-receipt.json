@@ -1,0 +1,101 @@
+{
+  "status": "PASS_FRESH_COMPLETE_RESTRICTED32_CENSUS",
+  "scope": "Independent 32-point subsets of C7 strong power 3 with exactly one maximum 10-point adjacent square band in EACH coordinate direction. No unrestricted size-32 census or fourth-power bound.",
+  "creator": "Anonymous",
+  "publication_status": "private-prepared",
+  "novelty_status": "not-established",
+  "external_review_status": "not-completed",
+  "normalized_codes": 78282,
+  "isometry_classes": 11175,
+  "labelled_codes": 183864464,
+  "maximal_classes": 11159,
+  "extendable_classes": 16,
+  "square_prerequisite": {
+    "status": "PASS_INDEPENDENT_MAXIMUM_SQUARE_CENSUS",
+    "row_states": 29,
+    "maximum_codes": 980,
+    "orbit_sizes": [
+      392,
+      196,
+      392
+    ],
+    "upper_bound_argument": "Every adjacent row union projects injectively to an independent C7 set of size at most 3; hence 2N<=21 and N<=10."
+  },
+  "physical_audit": {
+    "status": "PASS_ALL_RETAINED_RESTRICTED32_RECORDS",
+    "records": 78282,
+    "direct_coordinate_pairs": 38827872,
+    "maximal32": 78186,
+    "extendable32": 96,
+    "extension_histogram": {
+      "0": 78186,
+      "1": 72,
+      "2": 18,
+      "4": 6
+    }
+  },
+  "isometry_quotient": {
+    "status": "PASS_COMPLETE_RESTRICTED32_ISOMETRY_QUOTIENT",
+    "normalized_records": 78282,
+    "isometry_classes": 11175,
+    "labeled_codes": 183864464,
+    "weighted_root_count": 183864464,
+    "group_order": 16464,
+    "normalized_transformation_checks": 565492,
+    "physical_image_membership_checks": 565492,
+    "normalized_records_by_root": [
+      23772,
+      22552,
+      31958
+    ],
+    "square_orbit_sizes": [
+      392,
+      196,
+      392
+    ],
+    "maximal_classes": 11159,
+    "extendable_classes": 16,
+    "maximal_labeled_codes": 183612016,
+    "extendable_labeled_codes": 252448,
+    "stabilizer_histogram": {
+      "1": 11164,
+      "3": 11
+    },
+    "normalized_forms_histogram": {
+      "2": 10,
+      "4": 1,
+      "6": 6191,
+      "8": 4343,
+      "10": 596,
+      "12": 34
+    },
+    "extension_count_class_histogram": {
+      "0": 11159,
+      "1": 12,
+      "2": 3,
+      "4": 1
+    }
+  },
+  "fresh_search_summary": {
+    "kind": "summary",
+    "status": "COMPLETE_RESTRICTED_NORMALIZED_CENSUS",
+    "reason": "",
+    "roots_completed": 756,
+    "roots_required": 756,
+    "solutions": 78282,
+    "nodes": 890803055,
+    "choice_nodes": 9149935843,
+    "count_prunes": 1796484585,
+    "future_prunes": 48082768,
+    "trace_prunes": 3445643442,
+    "maximum_square_subsets": 269109,
+    "seconds": 602.751
+  },
+  "negative_controls_rejected": 6,
+  "manifest_files_checked": 20,
+  "archive_sha256": "b9d5c93f3cd44cb4fa3d718370a66d82c9f5cbfe4d42c743a278041bbe7ce647",
+  "manifest_sha256": "ea11c7ce2a8bb8b12a296384953e8fd7aed9a142ce495bd96ac0fd780f0c9a3c",
+  "search_seconds": 602.751,
+  "seconds": 606.8798226250001,
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)"
+}

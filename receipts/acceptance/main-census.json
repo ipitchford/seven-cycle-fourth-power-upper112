@@ -1,0 +1,26 @@
+{
+  "status": "FRESH_EXACT_CENSUS_REPLAY_PASS",
+  "scope": "Maximum independent sets in C7^3; fourth-power value remains unresolved",
+  "normalized_codes": 4560,
+  "pair_checks": 2407680,
+  "profiles": 20,
+  "classes": 1016,
+  "global_codes": 16672544,
+  "orbit_histogram": {
+    "2744": 1,
+    "5488": 3,
+    "8232": 1,
+    "16464": 1011
+  },
+  "search_nodes": 2804515626,
+  "search_seconds": 89.2534244,
+  "negative_controls_rejected": 4,
+  "manifest_files_checked": 25,
+  "archive_sha256": "74d12747b1f5940ff4c10c5a6a7c98149f092f9c8ccf9dbc4d89a59624f4e929",
+  "core_bound_replay": "PASS",
+  "fourth_power_interval": [
+    108,
+    115
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)"
+}

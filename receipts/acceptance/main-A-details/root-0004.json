@@ -1,0 +1,17 @@
+{
+  "RUP_additions": 15015,
+  "completion_upper_histogram": {},
+  "dictionary_sha256": "dc078abe81da37508bd9da02efee6478296c9bb45999784ec09ebed4f9844f5e",
+  "duals_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "mode": "restricted17-16",
+  "models": 0,
+  "pairs": 5315,
+  "proof_sha256": "74c348eff7e9e8b7e330c62559e0c59ad403c59c6faa1e5f1a199e352be66cc7",
+  "roles": {
+    "J": 139,
+    "M": 5176
+  },
+  "root": 4,
+  "scalar_sha256": "6d1ab1159e3ae8af23a58f0a4154a5780902ae2b88035eb513a686251513cac6",
+  "status": "PASS_FRESH_ROOT_A113_REPLAY"
+}

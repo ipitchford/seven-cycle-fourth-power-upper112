@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_FRESH_METHOD106_ARCHIVE_READBACK",
+  "scope": "Readback of current bytes, manifests, complete inventories and fresh owner evidence only; no catalogue, geometry, scalar or word-pair computation rerun. Exact Gao square+square method maximum106 only, not an unrestricted fourth-power bound.",
+  "archive_sha256": "69f65079d470991d6281276e4757cf55a844a8b7551a28dc20f87bd6f75d129b",
+  "archive_bytes": 1030149,
+  "files": 20,
+  "packet_manifest_sha256": "df30bd1ea383c47432fcdc2fcd3f295f76a58adc29278940add19c7d8a808a4c",
+  "owner_receipt_sha256": "1b0404511cc372e6be61bf00774674894e632fbf39851b5ec70e07497f555b33",
+  "fresh_result_sha256": "6b3e99202bc94164bcb79f8fe3fa328e33cccf7bbee3656fc3aed18d94c7c2c2",
+  "source_review_sha256": "30381843a80334b14c2b24a03139267512b3d1848c5635232f9f3eb79cfc4fd2",
+  "stages": [
+    "compiler-version",
+    "compile",
+    "catalogues",
+    "maximum-seeds",
+    "geometry",
+    "attainment"
+  ],
+  "root_count": 924,
+  "six_cliques": 866,
+  "residual_histogram": {
+    "0": 754,
+    "2": 4,
+    "1": 108
+  },
+  "maximum_seed_cases": 136,
+  "method_maximum": 106,
+  "witness_size": 106,
+  "word_pair_checks": 5565,
+  "owner_wall_seconds": 14.626316959001997,
+  "owner_peak_rss_bytes": 125632512,
+  "source_sha256": "7b64f870aacc545846bd8158773ad26bc5a9046c0c3cdb33c214dae738dc43d6"
+}

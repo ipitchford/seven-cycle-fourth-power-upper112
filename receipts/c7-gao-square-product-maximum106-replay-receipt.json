@@ -1,0 +1,102 @@
+{
+  "status": "PASS_OWNER_FRESH_ARCHIVE_REPLAY",
+  "terminal_exit_code": 0,
+  "archive_sha256": "69f65079d470991d6281276e4757cf55a844a8b7551a28dc20f87bd6f75d129b",
+  "archive_bytes": 1030149,
+  "manifest_sha256": "df30bd1ea383c47432fcdc2fcd3f295f76a58adc29278940add19c7d8a808a4c",
+  "source_archive_members_verified": 20,
+  "whole_wall_seconds": 14.626316959001997,
+  "cpu_seconds": 13.994102,
+  "peak_child_rss_bytes": 125632512,
+  "command": [
+    "/Users/admin/.venvs/analysis-py313/bin/python",
+    "-B",
+    "-O",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/gao-square-method106-clean-replay-v1/extracted/gao-square-method106/replay.py",
+    "--work-dir",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/gao-square-method106-clean-replay-v1/scratch",
+    "--seconds",
+    "115"
+  ],
+  "fresh_result": {
+    "status": "PASS_FRESH_EXACT_GAO_SQUARE_PRODUCT_MAXIMUM_106",
+    "method_maximum": 106,
+    "scope": "All Gao Definition3 gadget pairs in H=C7 strong-product C7. Not a bound on unrestricted fourth-power codes.",
+    "seconds": 14.493784917001904,
+    "stages": [
+      {
+        "stage": "compiler-version",
+        "exit_code": 0,
+        "seconds": 0.02241774999856716,
+        "executable_sha256": "34129c71a01a74f7f3b2443521519b2e5447553fa187f5fcafaaf8c42cc192e2"
+      },
+      {
+        "stage": "compile",
+        "exit_code": 0,
+        "seconds": 0.7600039590033703,
+        "executable_sha256": "34129c71a01a74f7f3b2443521519b2e5447553fa187f5fcafaaf8c42cc192e2"
+      },
+      {
+        "stage": "catalogues",
+        "exit_code": 0,
+        "seconds": 0.4277217089984333,
+        "executable_sha256": "4fc9e78b40b0017837aa07bbc3a668d6008e35032e918ede8398f635559b783e"
+      },
+      {
+        "stage": "maximum-seeds",
+        "exit_code": 0,
+        "seconds": 0.522569917004148,
+        "executable_sha256": "a1f6d9dc20d4787a84dc2fe782094a7bac5946f49a962aa0af48a02f0e8d5bc5"
+      },
+      {
+        "stage": "geometry",
+        "exit_code": 0,
+        "seconds": 12.613177084000199,
+        "executable_sha256": "a1f6d9dc20d4787a84dc2fe782094a7bac5946f49a962aa0af48a02f0e8d5bc5"
+      },
+      {
+        "stage": "attainment",
+        "exit_code": 0,
+        "seconds": 0.08858783400501125,
+        "executable_sha256": "a1f6d9dc20d4787a84dc2fe782094a7bac5946f49a962aa0af48a02f0e8d5bc5"
+      }
+    ],
+    "scalar": {
+      "status": "PASS_EXACT_PARAMETER_ENVELOPE",
+      "universe": 616,
+      "after_noK5": 611,
+      "after_no_R": 610,
+      "maximum": 106,
+      "required_fresh_geometric_gates": [
+        "noK5 at auxiliary10",
+        "no R9/6/8",
+        "Q9/5/9 literal106"
+      ]
+    },
+    "python_version": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+    "geometry_counts": {
+      "auxiliary8_roots": 924,
+      "six_cliques": 866,
+      "auxiliary10_roots": 3
+    },
+    "witness_size": 106,
+    "word_pair_checks": 5565,
+    "packet_manifest_sha256": "df30bd1ea383c47432fcdc2fcd3f295f76a58adc29278940add19c7d8a808a4c",
+    "outputs": {
+      "geometry.json": "f3d34bb12c3183e7cd1691ca3dacad86d89253f0d518ee1b1e8825a8d6d5bf29",
+      "R-cliques.jsonl": "313ec811a3eb66b2d45ee23527de702ddfe51a224d557cc7c985921a239bf801",
+      "live.json": "b1a6cc3175282cca38f1b0beac2b5d111031debb6046fbfef345062d7fc1624d",
+      "attainment.json": "8fc8ebdd61afd203a86e976a88ac6cb1b1891918381c1d2150374fa0901062db",
+      "max-seed.json": "b0aa92344927c6e8b60cd290b009417577b8011abbd46480c7fb7046a9bfd0cd"
+    }
+  },
+  "fresh_result_sha256": "6b3e99202bc94164bcb79f8fe3fa328e33cccf7bbee3656fc3aed18d94c7c2c2",
+  "scope": "Exact106 maximum for Gao gadgets with two C7-square factors; no unrestricted fourth-power bound.",
+  "sha256": {
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/gao-square-method106-archive-v1/gao-square-method106.zip": "69f65079d470991d6281276e4757cf55a844a8b7551a28dc20f87bd6f75d129b",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/gao-square-method106-clean-replay-v1/stdout.txt": "6b3e99202bc94164bcb79f8fe3fa328e33cccf7bbee3656fc3aed18d94c7c2c2",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/gao-square-method106-clean-replay-v1/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/admin/Documents/Codex/2026-10-04/new-chat-2/work/gao-square-method106-clean-replay-v1/scratch/result.json": "6b3e99202bc94164bcb79f8fe3fa328e33cccf7bbee3656fc3aed18d94c7c2c2"
+  }
+}

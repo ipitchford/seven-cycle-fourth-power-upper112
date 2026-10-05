@@ -1,0 +1,23 @@
+# Mathematical scope of fresh compact N replay
+
+This component excludes a113-word independent set in C7^4 that has two maximum33-word adjacent-layer unions at nonadjacent outer positions. It is not the adjacent-band component and cannot by itself establish an unrestricted fourth-power bound. The initial executable driver permits roots164 and533 only; full1016 coverage is a later gate.
+
+Write A_i for the independent sets in the seven outer layers and B_i=A_i union A_(i+1), with indices modulo7. Each B_i is an independent C7^3 code, of size at most33 by the fresh no34 replay. For a113-word code, the nonnegative integers q_i=33-|B_i| sum5. Therefore there are at least two maximum bands in every coordinate direction. Solving the odd seven-cycle equations a_i+a_(i+1)=33-q_i shows14<=a_i<=19. If B_0 and B_2 are maximum, a_2<=a_0 follows from a_1+a_2<=33. These are exactly the broad21/36 cardinality domains used by the solver for separation2/3.
+
+A cyclic rotation/reflection puts a chosen nonadjacent pair at0,d with d2 or3. An inner C7^3 isometry puts B_0 into one of the complete1016 representatives. Reflection t maps to d+1-t exchanges the bands and sends the low-layer counts (u,v) to (33-v,33-u), preserving both broad domains. Thus global coverage may order the two H-orbit classes, retaining equality. Twenty-one portions deliberately cover all partners; the other995 use the ordered condition. A selected portion is never promoted into an all-root claim.
+
+Replacing three consecutive layers by the intersection of their endpoint layers produces an independent code in C5 times C7^3, of size113 minus the cardinality of the three-layer union. The fresh mixed upper77 theorem implies every such union has at least36 words. In particular B_0 union B_2 has at least36 words, so |B_0 intersect B_2|<=30. This is the sole mixed-product pruning premise.
+
+For each transverse axis, the seven adjacent-window restrictions have total cardinality226 and size at most33, hence at least two have size33. In each such maximum transverse restriction, the selected outer bands yield the literal two-dimensional union pair (Q_0,Q_d). Its lower-row pair (L_0,L_d) gives the corresponding Boolean allocation pattern. Enumerating all labelled maximum C7^3 codes therefore gives an exhaustive dictionary. The solver joins every choice of two windows on each of three axes, enforces the distance2 adjacency implications and the broad cardinalities, and fills every remaining Boolean choice. The complete result is a necessary superset of all genuine113-code allocations.
+
+Ordinary compact records must equal that fresh complete assignment set, not merely a subset or witness. Every empty candidate is accounted for, and every stored block must be encountered exactly once. A resource cap is failure/UNKNOWN. The three named direct cases instead use the diagnostic's complete joined-cube union before physical filling. `cube_cover_complete` and `COMPLETE_JOIN_CUBE_COVER_ONLY` have this precise meaning; ordinary `complete` remains false, and no physical models are claimed.
+
+For each ordinary66-word prefix S, direct modular-coordinate checks reconstruct the full residual domain R of words compatible with S. Every adjacent-window box on k coordinates has capacity33,10,3,1 for k=1,2,3,4. For nonnegative integer row weights Y, let W(v) be their summed incidence and C the sum of capacity times weight. With positive denominator D, every extension has total size at most
+
+    [66D + C - sum_(v in S) W(v) + sum_(v in R) max(0,D-W(v))] / D.
+
+The verifier checks this integer numerator is below113D. No numerical optimizer status is a proof premise.
+
+For a direct distance3 case, the two maximum bands fix all words in layers0,1,3,4, so the extension is confined to the remaining1029 vertices in layers2,5,6. The direct certificate bounds all of those free vertices, and minimizes the known-word weight exactly on every complete joined cube under both14..19 cardinalities. This is an upper bound on every genuine extension, even if some cube assignments or free vertices would be incompatible. Cube overlap and physical leaf counts are irrelevant. Fresh cube-set and physical-map comparison binds the arithmetic to the regenerated necessary allocation cover.
+
+The prerequisite packages, source hashes, catalogue exhaustion, root modes, both offsets, exact model/cube comparison, and raw integer geometry are all required. A prior PASS receipt, an incomplete retained model list or an LP timeout cannot satisfy any gate. A cleanly extracted future full package must replay without the original workspace archives.

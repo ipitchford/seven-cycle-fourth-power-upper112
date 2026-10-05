@@ -1,0 +1,73 @@
+{
+  "status": "PASS_FRESH_EXACT_GAO_SQUARE_PRODUCT_MAXIMUM_106",
+  "method_maximum": 106,
+  "scope": "All Gao Definition3 gadget pairs in H=C7 strong-product C7. Not a bound on unrestricted fourth-power codes.",
+  "seconds": 16.350153624996892,
+  "stages": [
+    {
+      "stage": "compiler-version",
+      "exit_code": 0,
+      "seconds": 0.12887591699836776,
+      "executable_sha256": "34129c71a01a74f7f3b2443521519b2e5447553fa187f5fcafaaf8c42cc192e2"
+    },
+    {
+      "stage": "compile",
+      "exit_code": 0,
+      "seconds": 1.0851441249978961,
+      "executable_sha256": "34129c71a01a74f7f3b2443521519b2e5447553fa187f5fcafaaf8c42cc192e2"
+    },
+    {
+      "stage": "catalogues",
+      "exit_code": 0,
+      "seconds": 0.6189786670001922,
+      "executable_sha256": "4fc9e78b40b0017837aa07bbc3a668d6008e35032e918ede8398f635559b783e"
+    },
+    {
+      "stage": "maximum-seeds",
+      "exit_code": 0,
+      "seconds": 0.4950223750056466,
+      "executable_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+    },
+    {
+      "stage": "geometry",
+      "exit_code": 0,
+      "seconds": 13.89095675000135,
+      "executable_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+    },
+    {
+      "stage": "attainment",
+      "exit_code": 0,
+      "seconds": 0.07752595800411655,
+      "executable_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+    }
+  ],
+  "scalar": {
+    "status": "PASS_EXACT_PARAMETER_ENVELOPE",
+    "universe": 616,
+    "after_noK5": 611,
+    "after_no_R": 610,
+    "maximum": 106,
+    "required_fresh_geometric_gates": [
+      "noK5 at auxiliary10",
+      "no R9/6/8",
+      "Q9/5/9 literal106"
+    ]
+  },
+  "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "geometry_counts": {
+    "auxiliary8_roots": 924,
+    "six_cliques": 866,
+    "auxiliary10_roots": 3
+  },
+  "witness_size": 106,
+  "word_pair_checks": 5565,
+  "packet_manifest_sha256": "df30bd1ea383c47432fcdc2fcd3f295f76a58adc29278940add19c7d8a808a4c",
+  "outputs": {
+    "geometry.json": "1ef5aba4dab41fe49994cd1cf1c6a45f255b70276e191ddefb0787b2e32c449c",
+    "R-cliques.jsonl": "313ec811a3eb66b2d45ee23527de702ddfe51a224d557cc7c985921a239bf801",
+    "live.json": "a169d37c92a5ffba1579f46d5324ebb0690d752f5a5c2bf39eb6dd1ab3d3c60e",
+    "attainment.json": "8fc8ebdd61afd203a86e976a88ac6cb1b1891918381c1d2150374fa0901062db",
+    "max-seed.json": "b0aa92344927c6e8b60cd290b009417577b8011abbd46480c7fb7046a9bfd0cd"
+  }
+}

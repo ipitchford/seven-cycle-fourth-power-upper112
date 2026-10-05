@@ -1,0 +1,12 @@
+{
+  "status": "DELIVERED_ARCHIVE_FRESH_REPLAY_PASS",
+  "archive": "c7-maximum-square-trace-extension-classification.zip",
+  "archive_sha256": "6cac046336fdbc97ce9717cf82568afcf7400167918369c0f86b771ae826cd0c",
+  "archive_bytes": 180659,
+  "manifest_sha256": "3137a500a215ff5f694861423d4a525f0e335ac137b426d4a1cc26d814a39c56",
+  "replay_receipt": "c7-maximum-square-trace-extension-classification-replay-receipt.json",
+  "replay_receipt_sha256": "a4ce02238ba4121df0c3d3f1e8fd2ff71c796f993cb46eecc957258d69051660",
+  "clean_extraction_byte_equality": true,
+  "replay_seconds": 124.79976662499394,
+  "scope": "All fixed oriented two-layer traces whose union is a maximum C7 square code. No determination of alpha(C7^4)."
+}

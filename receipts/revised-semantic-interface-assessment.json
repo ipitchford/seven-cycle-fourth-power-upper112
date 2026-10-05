@@ -1,0 +1,38 @@
+{
+  "status": "PRODUCER_SEMANTIC_CORRESPONDENCE_ASSESSED",
+  "assessed_at": "2026-10-05T11:43:08.730285+00:00",
+  "checks": [
+    "A cardinality state recurrence is equivalent to the four emitted CNF clauses; true zero and false impossible thresholds match.",
+    "A required projected fourth-row point has at least one and pairwise at most one physical lift; omitted points forbid all lifts.",
+    "The seven clauses omitting one window each require at least two windows without adjacency restriction.",
+    "Physical blocking uses all X/Y variables exactly once; auxiliary selector and threshold variations do not escape a block.",
+    "A closed-neighbourhood domain and y_v implies x_w clauses enforce compatibility with B1 minus X.",
+    "Mixed contraction yields size 113 minus cardinality of the projected three-layer union, hence that union has at least 36; B0 union B2 contains it, giving intersection at most 30.",
+    "For d=2 the scalar restriction u>=v follows from the intervening band; swapping bands maps counts to (33-v,33-u) and preserves the domain."
+  ],
+  "sources": [
+    {
+      "path": "guides/specifications/A-joint_encoder.hpp",
+      "sha256": "f8b55d1c79029f6777281909c3f4d266c6622ba5e205e6ee154c8a96f23ad8be"
+    },
+    {
+      "path": "guides/specifications/A-replay.cpp",
+      "sha256": "8385ddfeecdfcebd3dcea2778de5a98c64fb2226bca60484dab68899428f5571"
+    },
+    {
+      "path": "guides/specifications/N-PROOF_SCOPE.md",
+      "sha256": "287b23def504e9f99612a01df47f1ecc947e021f0dd91c98052580be11ff72cc"
+    },
+    {
+      "path": "guides/specifications/N-cube_arithmetic.py",
+      "sha256": "27b58b9cb66df6f9a4e2aad7e8d3480443fe702c8ef3a10bfe15650fd8a717b4"
+    },
+    {
+      "path": "paper/paper.tex",
+      "sha256": "f45aa5cd3912da89115d472e63ea30c48dc2d615124327f332170d4c503aede3"
+    }
+  ],
+  "boundary": "Targeted internal reading of semantic interfaces; not a formal verification, unaffiliated reimplementation or substitute for full replay.",
+  "runtimeClarificationRecheckAt": "2026-10-05T13:10:20.759139+00:00",
+  "runtimeClarificationBoundary": "Only reference-runtime provenance changed after the semantic assessment; mathematical interface sections unchanged."
+}

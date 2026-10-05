@@ -1,0 +1,52 @@
+[
+  {
+    "file": "A-DESIGN.md",
+    "original_component_path": "A/c7-conditional-adjacent113/component/DESIGN.md",
+    "sha256": "b19b644325609308d7f76518bf8c5f741f869eb6af33de277ebb96cb14152211"
+  },
+  {
+    "file": "A-MATHEMATICAL_SCOPE.md",
+    "original_component_path": "A/c7-conditional-adjacent113/component/MATHEMATICAL_SCOPE.md",
+    "sha256": "58cc12fa222f0bd073e80c70072ac8de15afec62d804d4b95dd772f179f25b25"
+  },
+  {
+    "file": "A-joint_encoder.hpp",
+    "original_component_path": "A/c7-conditional-adjacent113/component/src/joint_encoder.hpp",
+    "sha256": "f8b55d1c79029f6777281909c3f4d266c6622ba5e205e6ee154c8a96f23ad8be"
+  },
+  {
+    "file": "A-replay.cpp",
+    "original_component_path": "A/c7-conditional-adjacent113/component/src/replay.cpp",
+    "sha256": "8385ddfeecdfcebd3dcea2778de5a98c64fb2226bca60484dab68899428f5571"
+  },
+  {
+    "file": "N-PROOF_SCOPE.md",
+    "original_component_path": "N/runtime/PROOF_SCOPE.md",
+    "sha256": "287b23def504e9f99612a01df47f1ecc947e021f0dd91c98052580be11ff72cc"
+  },
+  {
+    "file": "N-V3-SCALING.md",
+    "original_component_path": "N/runtime/V3-SCALING.md",
+    "sha256": "f5e164608736fdefa57b8a890517766bfe06e170289ddface54b89ec308338ee"
+  },
+  {
+    "file": "N-partition113.hpp",
+    "original_component_path": "N/runtime/partition113.hpp",
+    "sha256": "f4df8baa3894d062218b46838d93f4e00c74a246503d265a64ec9dc6c08c7574"
+  },
+  {
+    "file": "N-cube_arithmetic.py",
+    "original_component_path": "N/runtime/cube_arithmetic.py",
+    "sha256": "27b58b9cb66df6f9a4e2aad7e8d3480443fe702c8ef3a10bfe15650fd8a717b4"
+  },
+  {
+    "file": "census33-README.md",
+    "original_component_path": "N/runtime/dependencies/census33/README.md",
+    "sha256": "65560bf60f675a0efe235aa1ea998e204c932e79b123f5c8860158e6380d9be4"
+  },
+  {
+    "file": "mixed77-PROOF_SCOPE.md",
+    "original_component_path": "N/runtime/dependencies/mixed77/endpoint78/PROOF_SCOPE.md",
+    "sha256": "1a4de7f6a959af19de8f20d4b9125518ba94f43cf5ec1e22555f5079922a53cf"
+  }
+]

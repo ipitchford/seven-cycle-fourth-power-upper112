@@ -1,0 +1,25 @@
+{
+  "status": "DOCUMENTATION_REVISION_ONLY",
+  "date": "2026-10-05",
+  "archive_unchanged": true,
+  "new_full_replay": false,
+  "purpose": "Define terms, explain exhaustive 113 split, state historical 115 comparison, and clarify C5 versus P5 bound.",
+  "files": {
+    "outputs/c7-fourth-power-upper112-README.md": {
+      "bytes": 4210,
+      "sha256": "ae4aa09ea19ca9e7c1102280a8fa30eb3bec9765b4bd14dc376bd66fba89bb78"
+    },
+    "outputs/c7-fourth-power-upper112-README-v2.md": {
+      "bytes": 6530,
+      "sha256": "9ef582b9e74e2b42a5249b819f42fc1dcaec0685f07ffaa307a8ab59b6a2711f"
+    },
+    "outputs/c7-fourth-power-upper112-delivery-receipt.json": {
+      "bytes": 6632,
+      "sha256": "f149dff448492cc5f0f642111064fbe10bc6e1cdd4aa18c81cadcee27483ea00"
+    },
+    "outputs/c7-fourth-power-upper112-proof.md": {
+      "bytes": 6890,
+      "sha256": "87f2448579526c2028cced8193dd521298438634936bbcda3af910ff4314b488"
+    }
+  }
+}
